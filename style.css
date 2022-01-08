@@ -2,16 +2,60 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* ingen undstregning under links */
+  text-decoration: none;
 }
 
 img {
   max-width: 100%;
 }
+a {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
 
-h1 {
-  font-size: 5rem;
+header {
+  background-color: #f5f5f4;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  overflow-x: auto;
+  /* justify-content: flex-end; */
+
+  /* fjerner prikker */
+  list-style: none;
+}
+
+/* margin i hele main - dog ikke header og footer */
+
+main {
+  margin: 20px;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Cormorant Garamond", serif;
+  color: #707070;
 }
 
 p {
-  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  color: #707070;
+}
+
+#first_section h1 {
+  font-family: "Kolker Brush", cursive;
+  font-size: 4rem;
+}
+#first_section h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  color: black;
+  padding-left: 30px;
 }
