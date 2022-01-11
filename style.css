@@ -77,11 +77,13 @@ p {
 
 #first_section {
   background-color: #f5f5f4;
+  min-height: 720px;
 }
 #first_section h1 {
   font-family: "Kolker Brush", cursive;
   font-size: 4rem;
   text-align: center;
+  margin-top: 150px;
 }
 
 #first_section h2 {
@@ -91,6 +93,21 @@ p {
   text-decoration: none;
   font-weight: bold;
 }
+#first_section h3 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.5rem;
+  opacity: 15%;
+  text-align: end;
+  margin-right: 35px;
+}
+#first_section h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  opacity: 15%;
+  text-align: end;
+  margin-right: 35px;
+}
+
 #second_section .section_wrapper {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
@@ -211,6 +228,20 @@ label {
   #first_section h2 {
     font-size: 5rem;
   }
+  #first_section h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.5rem;
+    opacity: 15%;
+    text-align: end;
+    padding-right: 100px;
+  }
+  #first_section h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    opacity: 15%;
+    text-align: end;
+    padding-right: 100px;
+  }
   /* Her justerer jeg teksten til 2 colonner i ipad size  */
   #second_section .col_bottom {
     margin-inline-start: 50px;
@@ -284,6 +315,20 @@ label {
   }
   #first_section h2 {
     font-size: 7rem;
+  }
+  #first_section h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.5rem;
+    opacity: 15%;
+    text-align: end;
+    padding-right: 175px;
+  }
+  #first_section h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    opacity: 15%;
+    text-align: end;
+    padding-right: 175px;
   }
   /* img {
     max-width: 500px;
