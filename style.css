@@ -41,6 +41,7 @@ header {
 
 a:hover {
   background-color: #fdee58;
+  cursor: pointer;
 }
 .wrap_burger {
   display: flex;
@@ -94,6 +95,14 @@ p {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
 }
+#second_section .col {
+  display: flex;
+  flex-direction: center;
+}
+#second_section .col_kernekompetencer {
+  display: flex;
+  justify-content: space-around;
+}
 
 #third_section {
   background-color: #f5f5f4;
@@ -131,7 +140,7 @@ p {
 }
 #fifth_section .col {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 #fifth_section {
   background-color: #f5f5f4;
@@ -148,52 +157,22 @@ form {
 
 .form-felt {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 
   gap: 3px;
   padding: 10px;
 }
-button {
+label {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#fifth_section button {
   padding: 5px;
-  margin-left: 40%;
+  margin-left: 50%;
+  border-style: solid black;
 }
 
 @media (min-width: 600px) {
-  /* burgermenu */
-  /* .toggle-btn {
-    background: transparent;
-    border: none;
-    display: block;
-    min-width: 44px;
-    min-height: 44px;
-    font-size: 2rem;
-    cursor: pointer;
-  }
-  nav {
-    display: none;
-  }
-
-  nav.shown {
-    border-top: 1px solid #000;
-    padding-top: 1rem;
-    display: flex;
-    flex: 1 1 100%;
-    flex-flow: column;
-  }
-
-  nav ul {
-    display: flex;
-    flex-flow: column;
-  }
-  header nav ul {
-    gap: 10px;
-  } */
-  /* burger hertil */
-  /* tekst style links  */
-  /* nav a {
-    font-family: "Josefin Sans", sans-serif;
-    color: black;
-  } */
   #menuknap {
     display: none;
   }
